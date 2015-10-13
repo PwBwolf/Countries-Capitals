@@ -1,0 +1,28 @@
+{
+  "name": "Countries-Capitals",
+  "version": "0.0.0",
+  "homepage": "https://github.com/PwBwolf/Countries-Capitals",
+  "authors": [
+    "Peter Borodich <pwborodich@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-animate": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3",
+    "gumby": "~2.6.4"
+  }
+}
