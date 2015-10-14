@@ -23,6 +23,7 @@
     "font-awesome": "~4.4.0",
     "jquery": "~2.1.4",
     "underscore": "~1.8.3",
-    "gumby": "~2.6.4"
+    "gumby": "~2.6.4",
+    "bootstrap": "~3.3.5"
   }
 }
