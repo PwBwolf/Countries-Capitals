@@ -14,14 +14,14 @@ angular.module('ccLibrary', [])
     }
   })
 
-  .factory('ccAllCountries', function (ccCountries) {
+  .factory('ccAllCountries', function (CC_COUNTRIES) {
     return function () {
-      var path = ccCountries
+      var path = CC_COUNTRIES
       return ccRequest(path);
     }
   })
 
-  .factory('ccNeighbors', function (ccCountries, $interpolate, CC_NEIGHBOURS_PATH) {
+  .factory('ccNeighbors', function (CC_COUNTRIES, $interpolate, CC_NEIGHBOURS_PATH) {
     return function (neighbors) {
       var path = $interpolate(CC_NEIGHBOURS_PATH)({
         id: neighbors
@@ -30,7 +30,7 @@ angular.module('ccLibrary', [])
     }
   })
 
-  .factory('ccSearcher', function (ccCountries, CC_COUNTRY_DETAILS, $interpolate) {
+  .factory('ccSearcher', function (CC_COUNTRIES, CC_COUNTRY_DETAILS, $interpolate) {
     return function (country) {
       var path = $interpolate(CC_COUNTRY_DETAILS)({
         id: country

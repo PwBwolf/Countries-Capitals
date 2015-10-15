@@ -1,3 +1,3 @@
-var viewsModule = angular.module('appViews', ['ngRoute']);
+var viewsModule = angular.module('appViews', ['ngRoute', 'ccLibrary']);
 
 
