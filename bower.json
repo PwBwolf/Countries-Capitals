@@ -24,6 +24,8 @@
     "jquery": "~2.1.4",
     "underscore": "~1.8.3",
     "gumby": "~2.6.4",
-    "bootstrap": "~3.3.5"
+    "angular-bootstrap": "~0.14.2",
+    "bootstrap": "~3.3.5",
+    "angular-mocks": "~1.4.7"
   }
 }

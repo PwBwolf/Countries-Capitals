@@ -1,3 +1,3 @@
-var viewsModule = angular.module('appViews', ['ngRoute', 'ccLibrary']);
+var viewsModule = angular.module('appViews', ['ngRoute', 'ccLibrary', 'ngAnimate', 'ui.bootstrap']);
 
 

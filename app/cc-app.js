@@ -1,4 +1,4 @@
-angular.module('ccApp', ['appViews', 'ngRoute'])
+angular.module('ccApp', ['appViews', 'ngRoute', 'ngAnimate', 'ui.bootstrap'])
 
 
 .config(['$locationProvider', '$routeProvider', function($locationProvider, $rotueProvider) {

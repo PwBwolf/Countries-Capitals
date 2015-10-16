@@ -6,6 +6,10 @@ viewsModule.config(['$routeProvider', function($routeProvider) {
 }]);
 
 viewsModule.controller('CountryCtrl', function($scope, $location, ccAllCountries) {
-  // $scope.countries = ccAllCountries()
-  // console.log($scope.countries)
+  $scope.countries;
+  ccAllCountries()
+    .then(function(result) {
+      $scope.countries = result.geonames
+    })
+  
 });

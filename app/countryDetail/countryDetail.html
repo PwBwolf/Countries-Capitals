@@ -1,1 +1,15 @@
-<h1>{{test}}</h1>
+  <div class="countryDetails">
+    <h1>{{capital.countryName}}</h1>
+    <table>
+      <tr><th>Capital |</th><td>{{capital.name}}</td></tr>
+      <tr><th>Capital |</th><td>{{capital.population | number}}</td></tr>
+    </table>
+  </div>
+
+  <div class="countryPic">
+    <img id='myImage' src="http://www.geonames.org/img/country/250/{{upperC}}.png" />
+  </div>
+
+  <div class="countryPic">
+    <img src="http://www.geonames.org/flags/x/{{lowerC}}.gif" />
+  </div>
